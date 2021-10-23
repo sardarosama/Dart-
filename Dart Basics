@@ -72,8 +72,14 @@ var a =15;
     print("Not equal");
   }
   
-  
-  
-  
+     bilalll == bilal 
+    print("A is less than B");
+  }else if (a>b){
+    print("A is greater than B");
+  }else if (a!==b){
+    print("A is equal to B");
+  }else{
+    print("Not equal");
+  }
   
 }

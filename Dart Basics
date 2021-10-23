@@ -81,5 +81,18 @@ var a =15;
   }else{
     print("Not equal");
   }
-  
+   int a = 12;
+  int b = 10;
+  if (a>b)
+  {
+  print("A is greater than b");
+  }
+  else if (a==b){
+    print("A and b are equals");
+  }
+   else 
+  {
+    print("not equal");
+  }
+    
 }

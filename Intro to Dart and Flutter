@@ -1,0 +1,46 @@
+Dart:
+Dart is an open source and object-oriented programming language. Originally Developed by Google and approved by ECMA (European Computer Manufacturing Association).
+The Purpose of Dart Computer Programming is to create frontend user interfaces for web and mobile apps.
+
+Dart as Foundation of Flutter:
+Dart also forms the foundation of Flutter. Dart also provides the language and runtime that power flutter apps. But dart also supports many cores developer tasks like formatting, analyzing and testing code. 
+Dart Vs JavaScript:
+Similarly, to JavaScript Dart can be used for both mobile and web development. Dart became popular along with flutter framework for developing cross platform applications. Dart can also be used for developing web apps but is actually used for this purpose very rarely.
+Editors:
+On November 19, 2011, Google released Dart Editor, an open-source program for MacOS, Windows and Linux. The editor support syntax highlighting, JavaScript compiling, running web servers, servers Dart applications, and debugging. 
+
+Dart Pad:
+The dart team created Dart Pad at the start of 2015, to provide an easier way to start using Dart. It is fully an online editor from which user can experiment with Dart Application Programming Interfaces (APIs) and run dart code.
+
+The Main () function:
+The main function is top level function of the Dart. It is most important and vital function of Dart. The execution of Program will start from main () function. The main function will be only once in a program.
+
+Syntax:
+void main() {
+#Main body function
+}
+
+Example:
+void main() {
+print(“hello world”);
+}
+
+Where can I use Dart?
+Dart is a general-purpose language we can use it for almost everything:
+1.	In Mobile Applications through Flutter
+2.	In console applications
+3.	In web applications
+
+Flutter:
+Flutter is an open-source UI development kit created by Google, which allows you to make cross platforms 
+(Android Applications and IOS).
+
+Benefits of Flutter:
+
+Flutter is a cross Platform applications development tool. It means we can use same code for building both Android and IOS app.
+Simple to learn and use. It used modern framework to create apps
+Quick Compilation and Hot Reload. You can change your code and see the results in real time, it is called hot reload. 
+
+
+Open-Source Technology:
+Flutter is an open source and surrounded by an active community of developer who provide support and contribute the tools extensive documents and develop helpful resources. Both Dart and Flutter are free to use.

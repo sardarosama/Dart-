@@ -1,0 +1,180 @@
+// Dart Assignement 
+/*  
+//1.Hello_Word
+
+void main()
+{
+  print("Hello world");
+}
+
+//2.Variables
+
+  void main()
+  {
+  var a = 10; 
+ 
+  //var is a general term use for diff data types
+  var b = 20;
+    
+  var sum= a+b;
+ 
+  print("sum of two number is : $sum" );
+  // $ is used for concatenation 
+
+  }
+*/
+
+// 3.Type Casting
+/*
+void main()
+
+{
+ // String to int
+        var one = int.parse('1');
+       print(one);
+
+    // String to double
+        var onePointOne = double.parse('1.1');
+        print(onePointOne);
+
+    // int to String
+       String twenty = 20.toString();
+       print(twenty);
+
+    // double to String
+       String pi= 3.14316.toStringAsFixed(2);
+       print(pi);
+}
+
+
+
+
+//4.Unary Operator
+ 
+  void main()
+ 
+  {
+  var operator = 2;
+ 
+   operator++;
+   
+   print(operator);
+ }
+
+*/
+
+
+/*
+
+// 5.Arithmetic operator 
+
+  void main() 
+  {
+  var a = 23;
+  
+  var b = 15;
+ 
+  var sum= a+b;
+  
+  print("sum of two number is : $sum" );
+  }
+
+
+
+// 6. Shift operator (left and right)
+ void main()
+ {
+ 
+ print('LeftShift operator');
+ 
+ print(10 << 2);
+ 
+ print('RightShift operator'); 
+
+ print(20 >> 2);
+ 
+ }
+
+
+
+// 7. Rational Operator 
+
+void main()
+{
+  var n1 = 20;
+  var n2 = 10;
+  print("W3Adda - Dart Relational Operators");
+  var res = n1>n2; 
+  print('n1 greater than n2 :  ' +res.toString()); 
+ 
+  res = n1<n2; 
+  print('n1 lesser than  n2 :  ' +res.toString()); 
+ 
+  res = n1 >= n2; 
+  print('n1 greater than or equal to n2 :  ' +res.toString()); 
+ 
+  res = n1 <= n2; 
+  print('n1 lesser than or equal to n2  :  ' +res.toString()); 
+ 
+  res = n1 != n2; 
+  print('n1 not equal to n2 :  ' +res.toString()); 
+ 
+  res = n1 == n2; 
+  print('n1 equal to n2 :  ' +res.toString()); 
+}
+
+// 8.Logical Operator
+void main()
+{
+ 
+  bool bool1 = true, bool2 = false;
+ 
+  print("Dart Logical Operators");
+ 
+  var res = bool1 && bool2;
+  //Logical AND
+  print("bool1 && bool2 = " + res.toString());
+ 
+  res = bool1 || bool2;
+  //Logical OR
+  print("bool1 || bool2 = " + res.toString());
+ 
+  res = !(bool1 && bool2); 
+  //Logical Not
+  print("!(bool1 && bool2) = " + res.toString());
+ 
+}
+
+
+
+//9. Bitwise Operator
+
+void main() 
+{ 
+    var num1 = 40;
+    var num2 = 5;
+    var num3 =0;
+    print("Dart Bitwise Operators");
+    
+    //Bitwise AND
+    print("num1 & num2 = ${(num1 & num2)}");
+    
+    //Bitwise OR
+    print("num1 | num2 = ${(num1 | num2)}");
+    
+    //Bitwise XOR
+    print("num1 ^ num2 = ${(num1 ^ num2)}" );
+    
+    //Binary Complement Operator
+    print("~num1 = ${(~num1)}" );
+    
+    //Binary Left Shift Operator
+    num3 = num1 <<  2;
+    print("num1 << 1 = ${num3}");
+    
+    //Binary Right Shift Operator
+    num3 = num1 >>  2;
+    print("num1 >> 1  = ${num3}" );
+}
+
+*/

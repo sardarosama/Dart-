@@ -1,0 +1,133 @@
+/*Lists
+List is similar to an array, which is the ordered collection of the objects.
+The array is the most popular and commonly used collection in any
+other programming language.
+
+Syntax:
+var list1 = [10, 15, 20,25,25]
+list is defined by storing all elements inside the square bracket ([]) and
+separated by commas (,).
+*/
+
+void main()
+{
+    print("Hello Dart");  
+  
+ //list is similar to array i.e a group of elements
+ //through which variables are declares
+ //initialization of multiple element
+  
+  var list1 = ["blial", 12, true];
+             //   0     1   2      index
+  //var is used as general purpose for int, string, and boolean values
+  print(list1);
+  print(list1[1]);
+  
+  String b = "bilal";
+  int a = 12;
+  bool c = true;
+  print(b);
+  print(a);
+  print(c);
+  
+  var list2 = ["blial", 12, true, "ali", "osama"];
+  print(list2);
+  list2[2]= "Aqeel";
+  print(list2);
+  print(list2.elementAt(3));
+  print(list2.first);
+  print(list2.last);
+  print(list2.length);
+  
+  //update list
+  list2[1]= "zain";
+  print(list2);
+  
+  //replace
+  list2.replaceRange(2,4, ["osama", "shakeel"]);
+  // 2, 4 are range and names represents elements which we want to change
+  print(list2);
+  list2.sort();
+  print(list2);
+  var list3 = [55,1, 7, 2, 3, 4, 5];
+  list3.sort();
+  print(list3);
+  var list4=[];
+  if(list4.isEmpty){
+    print("empty list found ");
+  }
+  list4.add("ali");
+  list4.add("osama,");
+  
+  print(list4);
+  if(list4.isNotEmpty){
+    print("not empty");
+  }
+  
+  list4.clear();
+  print(list4);
+  
+  var list5=[12, 122,13];
+  var x = List.of(list5.reversed);
+  print(list5);
+  print(x);
+  
+  //add multiple values in list
+  list5.addAll([1,2,2,3,4]);
+  print(list5);
+  var list7= [1,2,2,3,4,5];
+  print(list7);
+  list5.addAll(list7);
+  print(list5);
+  list5.sort();
+  print(list5);
+  list5.insert(5,12);
+  print(list5);
+  var list8 = ["ali", "Mughal"];
+  list8.insert(0,"Name");
+  print(list8);
+  list8.insertAll(2,["umair","golf","asif"]);
+  print(list8);
+  list8.remove("Name");
+  print(list8);
+  
+  list8.removeAt(list8.length-3);
+  print(list8);
+  
+  list8.removeLast();
+  print(list8);
+  
+  list8.removeWhere((e)=> e !="ali");
+  print(list8);
+    
+  list8.clear();
+  print(list8);
+  
+  var list9= [0,4,4,35,5];
+  print(list9);
+  
+  list9.retainWhere((e)=> e>4);
+  print(list9);
+    
+  list9.removeRange(0,1);
+  print(list9);
+  
+  
+}
+
+/*
+Map in Dart
+A map is a collection of key/value pairs. The value is retrieved from a map with its
+associated key. Maps are also called dictionaries. A map literal consists of a pair of
+curly brackes, in which we specify the key/value pairs. The pairs are separated by
+comma. The key is separated from the value by colon.
+*/
+
+void main()
+{
+
+
+
+
+
+}

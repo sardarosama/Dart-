@@ -125,9 +125,79 @@ comma. The key is separated from the value by colon.
 
 void main()
 {
+var map1 = {1: "Ali", 2: "Bilal", 3: "Osama"};
+print(map1);
+print(map1.keys);
+print(map1.values);
+print(map1.length);
+print(map1.isNotEmpty);
+map1[4]="ahmed";
+print(map1);
+
+ 
+var map2 = {1: {0872, "osama", "bsse","B", 5}, 2: {0862,"Bilal","bsse","b",5}, 3: {0831, "Osman", "bsse","b",5}, 4: "osama"};
+print(map2);
+print(map2.values);
+// map2[4]= {0871, "javed", "bsse","B", 5};
+// print(map2);
+// print(map2.values);
+var abc = map2.putIfAbsent(5, () => {'sam',"bsse",0871,5});
+print(abc);
+print(map2);
+
+  var student = {'12a': ["bilal",20, "bsse"], '13a': ["usman", 21, "bssse"] };
+  student.addAll({'14a': ["uzair",22,"bsse"]});
+  print(student.values);
+  
+  var map1 = {1: "osama", 2: "ali"};
+  map1.remove(3);
+  map1.removeWhere((key , value) => value.startsWith("o"));
+  print(map1);
+  
+  
+  var map1 = {1: "a", 2:"b",3:"c"};
+  var map2 = {4: "d", 5:"e",6:"f"};
+  var merge = {}..addAll(map1)..addAll(map2);
+  print(merge);
+  
+  
+  
+  
+  var map1 = {1: "a", 2:"b",3:"c"};
+  var map2 = {4: "d", 5:"e",6:"f"};
+  var merge = {...map1,...map2};
+  print(merge);
+  
+  
+  var list1 = [1,2,3,4,5];
+  var list2 = ["osama", "ali", "usman", "ahmed", "uzair"];
+  var listt = Map.fromIterables(list1,list2); // list 1 as keys and list2 as values
+  print(listt);
+  
+  
+  
+ //contain key 
 
 
+   var map1 = {1: "a", 2:"b",3:"c"};
+   var abc = map1.containsKey(1);
+   var ads = map1.containsKey(4);
+   print(abc);
+   print(ads);
+  
+  
+  //contain value
+  
+  var map1 = {1: "a", 2:"b",3:"c"};
+  var abc = map1.containsValue("a");
+  var ads = map1.containsValue("z");
+  print(abc);
+  print(ads);
 
+var fruit = {1: 'Apple', 2: 'Banana', 3: 'Cherry', 4: 'Orange'};
+fruit.forEach((key, val) {
+print(' $key, $val');
+});
 
 
 }
